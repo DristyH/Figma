@@ -1,0 +1,41 @@
+.brand-section {
+  background: #006400; /* dark green like Figma */
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+.brand-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.brand-item {
+  display: flex;
+  align-items: center;   /* vertical alignment */
+  gap: 10px;             /* space between logo and name */
+  background: rgba(255,255,255,0.1); /* optional: subtle box */
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.brand-logos img {
+  max-height: 40px;
+  max-width: 80px;
+  object-fit: contain;
+}
+
+.brand-name {
+  font-size: 16px;
+  color: white; /* adjust depending on your design */
+  font-weight: 500;
+}
+
+

@@ -1,0 +1,64 @@
+.card-content {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card-content:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #f0fdf4; /* light green background */
+  color: #1f6f3c;       /* green text/icon */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f6f3c;
+  margin-bottom: 6px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  color: #1f2937;
+}
+
+.card-body {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.card-body img {
+  max-width: 100%;   /* shrink to fit container */
+  height: auto;      /* keep aspect ratio */
+  display: block;    /* removes inline spacing issues */
+  margin: 0 auto;    /* centers image inside card */
+}
+
+.card-body img:first-child {
+  margin-bottom: 20px; /* space between first & second image */
+}
+
+.card-placeholder {
+  color: #9ca3af;
+  font-style: italic;
+}

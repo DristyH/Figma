@@ -1,0 +1,95 @@
+:root{
+  --primary: #1f6f3c; /* same green as navbar */
+  --text: #1f2937;
+  --muted: #6b7280;
+  --container-width: 1180px;
+}
+
+.content {
+  padding: 70px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.content__container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.content__badge {
+  display: inline-block;
+  background: #e6f4ec; /* light green background */
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 18px;
+}
+
+.illustration{
+    width: 52px;
+    height: 32px;
+    opacity: 1;
+    top: 18px;
+    left: 533px;
+
+}
+
+.content__title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+  margin: 0 auto 18px;
+  max-width: 700px;
+}
+
+.content__title .highlight {
+  color: var(--primary);
+}
+
+.content__desc {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0 auto 28px;
+  max-width: 600px;
+}
+
+.content__cta {
+  font-size: 16px;
+  padding: 12px 28px;
+  margin-bottom: 50px;
+}
+
+/* Feature cards grid */
+.content__features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image & title */
+  margin-bottom: 8px;
+}
+
+.card-image {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+/* placeholder styling (to be replaced with FeatureCard) */
+.feature-placeholder {
+  background: #f3f4f6;
+  border-radius: 12px;
+  padding: 40px 20px;
+  font-weight: 600;
+  color: var(--muted);
+}
